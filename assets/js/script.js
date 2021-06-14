@@ -6,8 +6,6 @@ $('#ouibounce-modal').hide();
 });
 
 
-
-
 function findCity(){
     fetch(`https://conversionfanatics.com/cf-test-task/geo-api/`)
     .then(res => {
