@@ -3,6 +3,7 @@ ouibounce($('#ouibounce-modal')[0]);
 
 $('body').on('click', function() {
 $('#ouibounce-modal').hide();
+window.open('https://github.com/lacey-griffith', '_blank')
 });
 
 
@@ -35,7 +36,7 @@ function generateModal(city){
       });
         </script>
         <div class="modal-footer justify-content-center">
-          <button type="button" class="btn btn-danger btn-lg">ClAIM DISCOUNT</button>
+          <button type="button" class="btn btn-danger btn-lg" id="claim-discount">ClAIM DISCOUNT</button>
         </div>
       </div>
     </div>
